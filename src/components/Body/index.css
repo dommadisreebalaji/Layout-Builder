@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.nav-container {
+  background-color: #e2e8f0;
+  padding: 25px;
+  width: 33%;
+}
+.nav-heading {
+  color: #475569;
+  font-family: Roboto;
+}
+.content-container {
+  background-color: #f1f5f9;
+  width: 33%;
+  padding: 25px;
+}
+.right-items {
+  border: 1px solid #64748b;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}

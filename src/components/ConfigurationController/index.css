@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.configuration-controller-container {
+  padding: 10px;
+  background-color: #475569;
+  padding-left: 100px;
+}
+.configuration-controller-heading {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.label {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+}
