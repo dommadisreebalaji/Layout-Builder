@@ -11,10 +11,12 @@ const Body = () => (
           {showLeftNavbar && (
             <div className="nav-container">
               <h4 className="nav-heading">Left Navbar Menu</h4>
-              <p className="nav-items">Item 1</p>
-              <p className="nav-items">Item 2</p>
-              <p className="nav-items">Item 3</p>
-              <p className="nav-items">Item 4</p>
+              <ul>
+                <li className="nav-items">Item 1</li>
+                <li className="nav-items">Item 2</li>
+                <li className="nav-items">Item 3</li>
+                <li className="nav-items">Item 4</li>
+              </ul>
             </div>
           )}
           {showContent && (
@@ -30,8 +32,8 @@ const Body = () => (
           {showRightNavbar && (
             <div className="nav-container">
               <h4 className="nav-heading">Right Navbar Menu</h4>
-              <div className="right-items">Ad 1</div>
-              <div className="right-items">Ad 2</div>
+              <p className="right-items">Ad 1</p>
+              <p className="right-items">Ad 2</p>
             </div>
           )}
         </div>

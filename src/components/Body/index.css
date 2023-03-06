@@ -28,3 +28,6 @@
   align-items: center;
   margin: 10px;
 }
+.nav-items {
+  list-style-type: none;
+}
